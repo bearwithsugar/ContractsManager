@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.mayixuan.MainActivity">
+    <item
+        android:id="@+id/action_settings1"
+        android:title="扫一扫"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings2"
+        android:title="拍照识字"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings3"
+        android:title="新建"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings4"
+        android:title="更多"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

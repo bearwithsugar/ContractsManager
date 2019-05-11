@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mayixuan.fish_pear_donkey">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".ContractactivityActivity" />
+        <activity android:name=".Yanzheng" />
+        <activity android:name=".Signature" />
+        <activity
+            android:name=".test.GouXiaoActivity"
+            android:label="" />
+        <activity
+            android:name=".test.JiaMengActivity"
+            android:label="" />
+        <activity
+            android:name=".test.JinYingActivity"
+            android:label="" />
+        <activity
+            android:name=".test.RuGuActivity"
+            android:label="" />
+        <activity
+            android:name=".test.LaoDongActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".test.SecondActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".test.KongBaiActivity"
+            android:label="" />
+        <activity android:name=".test.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

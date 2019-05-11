@@ -1,0 +1,119 @@
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <io.codetail.widget.RevealFrameLayout
+        android:id="@+id/container_frame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/content_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="50dp">
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/refreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                 <LinearLayout
+
+                   android:id="@+id/content_button"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+
+                  </LinearLayout>
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </ScrollView>
+
+
+
+
+
+        //toolbar在drawerlayout布局外侧滑时不压住toolbar
+        //在布局中使用Toolbar控件
+        //background为标题栏背景设置
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:minHeight="?attr/actionBarSize"
+                android:background="@color/toolbackgroundColor"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </io.codetail.widget.RevealFrameLayout>
+
+    //滚动视图
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|bottom">
+        //start表示左侧菜单，end表示右侧菜单
+
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/put_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!---->
+        <!--android:orientation="horizontal">-->
+
+    <!--</LinearLayout>-->
+
+</android.support.v4.widget.DrawerLayout>

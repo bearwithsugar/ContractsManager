@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="探索律兜"
+                android:textSize="30sp"
+                android:textColor="#050505" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/one"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/team" />
+
+                    <TextView
+                        android:id="@+id/textone"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/one"
+                        android:padding="5dp"
+                        android:text="团队"
+                        android:textColor="#050505"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:id="@+id/two"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/one"
+                        android:background="@drawable/shape01"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/contract" />
+
+                    <TextView
+                        android:id="@+id/texttwo"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/two"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/textone"
+                        android:padding="5dp"
+                        android:text="合同"
+                        android:textColor="#050505"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                    android:id="@+id/three"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/two"
+                    android:background="@drawable/shape01"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/feel" />
+
+                    <View
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/shape01"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/two"/>
+
+                    <TextView
+                        android:id="@+id/textthree"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/two"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/texttwo"
+                        android:text="体验"
+                        android:textColor="#050505"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="给你最好的专家团队"
+                android:textSize="30sp"
+                android:textColor="#050505"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/second_one"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/songweilong" />
+                        <TextView
+                            android:id="@+id/song_introduce"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_marginTop="2dp"
+                            android:padding="5dp"
+                            android:text="欢娱影视签约演员"
+                            android:textColor="#68228B"
+                            android:textSize="6sp" />
+
+                        <TextView
+                            android:id="@+id/song_name"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_marginTop="7dp"
+                            android:padding="6dp"
+                            android:text="宋威龙99"
+                            android:textColor="#050505"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/song_words"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_marginTop="21dp"
+                            android:padding="6dp"
+                            android:text=" 无问西东，只问自由，只问盛放，只问深情，只问初心，只问敢勇，无问西东。 "
+                            android:textColor="#ABABAB"
+                            android:textSize="8sp" />
+
+
+
+                        <ImageView
+                            android:id="@+id/second_two"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/second_one"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/wuyanzu" />
+
+                        <TextView
+                            android:id="@+id/wu_introduce"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@id/song_introduce"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="2dp"
+                            android:padding="5dp"
+                            android:text="香港电影金像奖新晋导演奖"
+                            android:textColor="#68228B"
+                            android:textSize="6sp" />
+
+                        <TextView
+                            android:id="@+id/wu_name"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@+id/song_name"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text="吴彦祖"
+                            android:textColor="#050505"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/wu_words"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_toRightOf="@+id/song_words"
+                            android:layout_marginTop="21dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text=" 有的人浅薄，有的人金玉其表败絮其中。有一天 你会遇到一个彩虹般绚烂的人，当你遇到这个人后，会觉得其他人都只是浮云而已。  "
+                            android:textColor="#ABABAB"
+                            android:textSize="8sp" />
+
+                        <ImageView
+                            android:id="@+id/chuoye"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/second_two"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/chuoye" />
+
+                        <TextView
+                            android:id="@+id/chuo_introduce"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@id/wu_introduce"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="2dp"
+                            android:padding="5dp"
+                            android:text="南非裔澳大利亚歌手、演员"
+                            android:textColor="#68228B"
+                            android:textSize="6sp" />
+
+                        <TextView
+                            android:id="@+id/chuo_name"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@+id/wu_name"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text="Troye Sivan"
+                            android:textColor="#050505"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/chuo_words"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_toRightOf="@+id/wu_words"
+                            android:layout_marginTop="21dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text=" Life was a box of chocolates, you never know what you're gonna get."
+                            android:textColor="#ABABAB"
+                            android:textSize="8sp" />
+
+
+                        <ImageView
+                            android:id="@+id/chenguanxi"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/chuoye"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/chenguanxi" />
+
+                        <TextView
+                            android:id="@+id/chen_introduce"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@id/chuo_introduce"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="2dp"
+                            android:padding="5dp"
+                            android:text="歌手、演员"
+                            android:textColor="#68228B"
+                            android:textSize="6sp" />
+
+                        <TextView
+                            android:id="@+id/chen_name"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_two"
+                            android:layout_toRightOf="@+id/chuo_name"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text="陈冠希"
+                            android:textColor="#050505"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/chen_words"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second_one"
+                            android:layout_toRightOf="@+id/chuo_words"
+                            android:layout_marginTop="21dp"
+                            android:layout_marginLeft="20dp"
+                            android:padding="6dp"
+                            android:text=" 你只知道我让你知道的，你只了解我想让你了解的，而那并不是我。 "
+                            android:textColor="#ABABAB"
+                            android:textSize="8sp" />
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+    <TextView
+        android:id="@+id/head3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" &quot;发现&quot;之旅  "
+        android:textSize="30sp"
+        android:textColor="#050505"
+        android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="阅读好文章。"
+                android:textSize="13sp"
+                android:textColor="#ABABAB"
+                />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/third_one"
+                    android:layout_width="360dp"
+                    android:layout_height="180dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/twentytwo" />
+                <TextView
+                    android:id="@+id/third_two_introduce"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/third_one"
+                    android:padding="5dp"
+                    android:text="《二十二》 大型纪录片"
+                    android:textColor="#000000"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:id="@+id/textseven"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/third_one"
+                    android:padding="5dp"
+                    android:layout_marginTop="16dp"
+                    android:text="是由四川光影深处文化传播有限公司推出的一部关于在日军侵华战争中中国幸存的“慰安妇”长篇纪录片，由郭柯执导，二十二位“慰安妇”参与拍摄，也是中国首部获得公映许可的“慰安妇纪录片”"
+                    android:textColor="#ABABAB"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/third_two_level"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/third_one"
+                    android:layout_marginTop="50dp"
+                    android:padding="5dp"
+                    android:text="✭✭✭✭✩"
+                    android:textSize="10sp"/>
+
+
+                <ImageView
+                    android:id="@+id/third_two"
+                    android:layout_width="360dp"
+                    android:layout_height="180dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hobbit"
+                    android:layout_toRightOf="@+id/third_one"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/texteight"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/third_one"
+                    android:layout_toRightOf="@+id/third_one"
+                    android:layout_marginTop="7dp"
+                    android:padding="5dp"
+                    android:text="是由四川光影深处文化传播有限公司推出的一部关于在日军侵华战争中中国幸存的“慰安妇”长篇纪录片，由郭柯执导，二十二位“慰安妇”参与拍摄，也是中国首部获得公映许可的“慰安妇纪录片”"
+                    android:textColor="#ABABAB"
+                    android:textSize="10sp" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/head4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="当面签的好去处~"
+                android:textSize="30sp"
+                android:textColor="#050505" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/forth_one"
+                            android:layout_width="90dp"
+                            android:layout_height="110dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/starbucks" />
+
+                        <TextView
+                            android:id="@+id/place1"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/forth_one"
+                            android:padding="5dp"
+                            android:text="starbucks\n人均 ￥40"
+                            android:textColor="#ABABAB"
+                            android:textSize="10sp"
+                            android:layout_marginTop="10dp"/>
+
+
+                        <ImageView
+                            android:id="@+id/forth_two"
+                            android:layout_width="90dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/forth_one"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/rest2" />
+
+                        <TextView
+                            android:id="@+id/place2"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/forth_two"
+                            android:layout_marginLeft="16dp"
+                            android:layout_toRightOf="@+id/place1"
+                            android:padding="5dp"
+                            android:text="小调风情\n人均 ￥30"
+                            android:textColor="#ABABAB"
+                            android:textSize="10sp" />
+
+                        <ImageView
+                            android:id="@+id/forth_three"
+                            android:layout_width="90dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/forth_two"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/chayan" />
+
+                        <!--<View-->
+                            <!--android:layout_width="120dp"-->
+                            <!--android:layout_height="60dp"-->
+                            <!--android:background="@drawable/shape01"-->
+                            <!--android:layout_marginLeft="16dp"-->
+                            <!--android:layout_toRightOf="@+id/forth_two"/>-->
+
+                        <TextView
+                            android:id="@+id/place3"
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/forth_two"
+                            android:layout_marginLeft="16dp"
+                            android:layout_toRightOf="@+id/place2"
+                            android:text="茶颜悦色\n人均 ￥20"
+                            android:textColor="#ABABAB"
+                            android:textSize="10sp"
+                            android:padding="5dp"/>
+
+
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/call"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lvdou"
+                    android:layout_marginLeft="30dp"/>
+                <TextView
+                    android:id="@+id/call_name"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call"
+                    android:padding="5dp"
+                    android:text="联系我们"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call"
+                    android:padding="5dp"
+                    android:text="800-XXX-XXX"
+                    android:textColor="#ABABAB"
+                    android:textSize="12sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"/>
+
+
+                <ImageView
+                    android:id="@+id/pay"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_toRightOf="@+id/call"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pay" />
+                <TextView
+                    android:id="@+id/pay_name"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pay"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/number"
+                    android:padding="5dp"
+                    android:text="安全支付"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/paycontent"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pay"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/number"
+                    android:padding="5dp"
+                    android:text="支付有保障"
+                    android:textColor="#ABABAB"
+                    android:textSize="12sp"
+                    android:layout_marginTop="25dp"/>
+
+                <ImageView
+                    android:id="@+id/proof"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_toRightOf="@+id/pay"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/xinyong" />
+
+                <!--<View-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:background="@drawable/shape01"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_toRightOf="@+id/forth_two"/>-->
+                <TextView
+                    android:id="@+id/proof_name"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/proof"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/paycontent"
+                    android:text="xx信用"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/proofcoontent"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/proof"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/paycontent"
+                    android:text="实名认证律师，保证律师各类信息真实"
+                    android:textColor="#ABABAB"
+                    android:textSize="12sp"
+                    android:padding="5dp"
+                    android:layout_marginTop="25dp"/>
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
